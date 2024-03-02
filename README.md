@@ -26,7 +26,7 @@ The future scope of this project includes enhancing interactivity, personalized 
 
 ## How to Use
 1. Clone the repository.
-2. Set up a web server environment (e.g., Apache, Nginx).
+2. Set up a web server environment (e.g., Apache, Nginx; i HAVE USED XAMPP).
 3. Import the database schema provided in the `database` folder.
 4. Configure the database connection in `utils/db_connection.php`.
 5. Access the website through the web server.
