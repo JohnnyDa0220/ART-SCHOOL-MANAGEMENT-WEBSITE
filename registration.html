@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet"
+		href="css/registration.css">
+</head>
+
+<body>
+	<div class="main">
+		<h1>Registration</h1>
+		<h3>Enter your login credentials</h3>
+		<form action="registration.php" method="post">
+			<label for="first">
+				Name:
+			</label>
+			<input type="text"
+				id="first"
+				name="name"
+				placeholder="Enter Full Name" required>
+
+			<label for="password">
+				Password:
+			</label>
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required>
+
+                <label for="">Email</label>
+                <input type="text"Email ="email" placeholder="Enter your email" name="email" required> 
+                <label for="">PhoneNo</label>
+                <input type="text" PhoneNo="phoneno" placeholder="Enter your PhoneNo" name="phno" required>
+                <label for="">Dob</label>
+                <input type="date" name="Dob" required>
+                <label for="">Gender</label>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">other 
+                <label for="">Blood group</label>
+                <input type="text"Email ="Blood group" placeholder="Enter your bloodgroup" name="bgroup" required>
+
+			<div class="wrap">
+				<button type="submit"
+						onclick="solve()">
+					Submit
+				</button>
+			</div>
+		</form>
+		<p>Not registered? 
+			<a href="#"
+			style="text-decoration: none;">
+				Create an account
+			</a>
+		</p>
+	</div>
+</body>
+
+</html>
