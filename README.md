@@ -1,4 +1,4 @@
-# Robin Mahanta - Professional Portfolio
+# Art School Management System - Professional Portfolio
 
 ![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-blue)
 ![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react)
